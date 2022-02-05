@@ -2,6 +2,17 @@
 $fuente_principal: "Poppins",
 sans-serif;
 
+$font-sizes: (h1:48px,
+    h2:36px,
+    h6:18px,
+    p:18px);
+
+@each $tag,
+$size in $font-sizes {
+    #{$tag} {
+        font-size: $size;
+    }
+}
 
 
 //Colores
@@ -12,6 +23,8 @@ $color_fondo: #e6b8a2;
 
 //Sizes
 $ancho: 100%;
+
+
 
 //Mixins
 
