@@ -1,0 +1,23 @@
+//Fuente
+$fuente_principal: "Poppins",
+sans-serif;
+
+
+
+//Colores
+$color_titulos: brown;
+$color_fondo: #e6b8a2;
+
+
+
+//Sizes
+$ancho: 100%;
+
+//Mixins
+
+@mixin menu {
+    text-decoration: none;
+    color: #9d6b53;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: #f8edeb 1px 0 2px;
+}

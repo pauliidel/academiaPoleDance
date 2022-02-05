@@ -1,0 +1,84 @@
+@use "variables"as v;
+
+.containerContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: (v.$ancho)-30%;
+    margin: auto;
+    margin-top: 50px;
+    height: 90%;
+    padding: 25px;
+    background-color: rgb(248, 237, 235, 0.4);
+    border: 2px solid rgb(195, 142, 112, 0.4);
+    border-radius: 20px;
+
+
+}
+
+.containerContact__Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: v.$ancho;
+
+}
+
+.containerContact__H1 {
+    font-weight: 800;
+    font-size: 60px;
+    color: brown;
+    text-align: center;
+    text-shadow: #8a5a44 1px 0 4px;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+.field__Textarea,
+.field__Input {
+    border-radius: none;
+    border: none;
+    border-bottom: 1px grey solid;
+    /*border-right: 1px grey solid;*/
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: v.$fuente_principal;
+    font-size: 15px;
+    width: 90%;
+
+}
+
+.field__Textarea,
+.field__Input:hover {
+    border-right: 1px grey solid;
+    background-color: rgb(248, 237, 235, 0.2);
+    transform: scale(1.1);
+    transition: all 400ms;
+}
+
+.field__Input {
+    text-align: right;
+}
+
+.field__Label {
+    color: #8a5a44;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.containerContact__Submit--input {
+    width: v.$ancho;
+    padding: 10px 60px;
+    font-family: v.$fuente_principal;
+    border-radius: 5px;
+    border: 2px solid rgb(195, 142, 112, 0.4);
+    color: v.$color_titulos;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.containerContact__Submit--input:hover {
+    background-color: v.$color_fondo;
+}

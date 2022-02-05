@@ -1,0 +1,15 @@
+@use "variables"as v;
+
+.footer__List {
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: (v.$ancho)-40%;
+    border-top: 1px solid #ddbea9;
+    padding-top: 15px;
+    margin-top: 100px;
+
+}

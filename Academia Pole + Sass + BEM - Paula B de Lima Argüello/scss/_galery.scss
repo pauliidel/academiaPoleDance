@@ -1,0 +1,32 @@
+@use "variables"as v;
+
+.galeria {
+    height: 800px;
+    width: v.$ancho;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.geleria__H2 {
+    text-align: center;
+    font-size: 40px;
+    width: v.$ancho;
+
+}
+
+.galeria__Grid {
+    width: (v.$ancho)-20%;
+    height: 600px;
+    background-color: burlywood;
+    display: grid;
+}
+
+.galeria__Img {
+    border: 0.5px solid #fff;
+}
+
+.galeria__Img:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}

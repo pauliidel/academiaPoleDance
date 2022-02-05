@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/stylesass.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Contact</title>
+</head>
+
+<body class="contact-body">
+    <header>
+        <nav class="menu">
+            <ul class="menu__List">
+                <li class="menu__Bullet"><a class="menu__Link" href="../index.html">Home</a></li>
+                <ul class="menu__Lista-anidada">
+                    <li class="menu__Bullet"><a class="menu__Link" href="about.html">Nosotros</a></li>
+                    <li class="menu__Bullet"><a class="menu__Link" href="onlineCurses.html">Clases online</a></li>
+                    <li class="menu__Bullet"><a class="menu__Link" href="galery.html">Galería</a></li>
+                </ul>
+                <li class="menu__Bullet"><a class="menu__Link" href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="" class="containerContact">
+                <section class="containerContact__Box">
+                    <h1 class="containerContact__H1">Contactanos!</h1>
+                    <div class="containerContact__Left-col">
+                        <section class="field">
+                            <label class="field__Label" for="iname">Nombre</label>
+                            <input class="field__Input" type="text" name="name" id="iname" placeholder="Ingrese su nombre" required>
+                        </section>
+                        <section class="field">
+                            <label class="field__Label" for="isurname">Apellido</label>
+                            <input class="field__Input" type="text" name="surname" id="isurname" placeholder="Ingrese su apellido" required>
+                        </section>
+                    </div>
+                    <div class="containerContact__Right-col">
+                        <section class="field">
+                            <label class="field__Label" for="email">Email</label>
+                            <input class="field__Input" type="email" name="email" id="email" placeholder="Ingrese su email" required>
+                        </section>
+                        <section class="field">
+                            <textarea class="field__Textarea" name="textarea" id="textarea" cols="30" rows="10" placeholder="Escribenos tu mensaje aqui"></textarea>
+                        </section>
+                    </div>
+                    <section class="containerContact__Submit">
+                        <input class="containerContact__Submit--input" type="submit" value="Enviar mi consulta">
+                    </section>
+                </section>
+        </form>
+    </main>
+    <footer class="footer">
+        <ul class="footer__List" type="none">
+            <li class="footer__Bullet"><a href="https://www.facebook.com/pau.delima"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="footer__Bullet"><a href="https://www.instagram.com/reddish_acrobatic_duo/"><i class="fab fa-instagram"></i></a></li>
+            <li class="footer__Bullet"><i class="fab fa-whatsapp"></i></li>
+        </ul>
+        <h6>@copyright</h6>
+    </footer>
+</body>
+
+</html>

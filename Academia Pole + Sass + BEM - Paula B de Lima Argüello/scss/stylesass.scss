@@ -1,0 +1,21 @@
+@use "variables"as v;
+@use "about";
+@use "contact";
+@use "footer";
+@use "galery";
+@use "header";
+@use "index";
+@use "mediaq";
+@use "menu";
+@use "online";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: v.$fuente_principal;
+}

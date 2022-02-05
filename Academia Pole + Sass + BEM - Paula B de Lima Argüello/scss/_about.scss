@@ -1,0 +1,48 @@
+@use "variables"as v;
+
+.titleAbout {
+    width: v.$ancho;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-family: v.$fuente_principal;
+    font-weight: 800;
+    color: brown;
+    text-align: center;
+    text-shadow: #8a5a44 1px 0 4px;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: (v.$ancho)-10%;
+    margin: auto;
+
+
+}
+
+.individual-videos {
+    width: v.$ancho;
+    height: 315px;
+    margin: 0;
+    padding: 30px 0;
+    border-bottom: #f8edeb solid 1px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: (v.$ancho)-20%;
+    margin: auto;
+    min-height: 10vh;
+    font-family: v.$fuente_principal;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+}

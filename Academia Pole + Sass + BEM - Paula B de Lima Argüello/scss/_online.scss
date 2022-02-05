@@ -1,0 +1,65 @@
+@use "variables"as v;
+
+.containerClasses {
+    background-color: #f8edeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    min-height: 10vh;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px 25px;
+    width: 80%;
+    max-width: 960px;
+    text-align: center;
+}
+
+.containerClasses__Heading {
+    color: #a5a58d;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+}
+
+.containerClasses__Texto {
+    width: auto;
+    margin: 15px 0 25px;
+    color: #8a5a44;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.containerClasses__Level {
+    margin: 20px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddbea9;
+}
+
+.containerClasses__Level:last-child {
+    border-bottom: none;
+}
+
+.containerClasses__Link {
+    color: #8a5a44;
+    border: 1px solid #8a5a44;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+}
+
+.containerClasses__Link:hover,
+.containerClasses__Link:focus {
+    background-color: #e6b8a2;
+}
+
+.containerClasses__Img {
+    background-image: url(../multimedia/caratulaPrincipiante.JPG);
+    width: (v.$ancho)/2;
+    height: (v.$ancho)/2;
+}

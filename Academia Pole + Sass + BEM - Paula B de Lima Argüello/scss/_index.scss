@@ -1,0 +1,136 @@
+body {
+    background-color: #edc4b3;
+}
+
+.ourBeggin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.ourBeggin__Img {
+    height: 50%;
+    width: 50%;
+}
+
+.ourBeggin__Text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    margin: 30px 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+
+
+}
+
+.ourBeggin__Text--FontWeight {
+    font-weight: 700;
+}
+
+.contenedorIndex {
+    background-color: #f8edeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px 25px;
+    width: 80%;
+    max-width: 960px;
+    text-align: center;
+}
+
+.contenedorIndex__Contenidos {
+    border-bottom: 1px solid #ddbea9;
+}
+
+.contenedorIndex__Contenidos:last-child {
+    border-bottom: none;
+}
+
+.contenedorIndex__Heading {
+    color: #a5a58d;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.contenedorIndex__Texto {
+    width: auto;
+    margin: 15px 0 25px;
+    color: #8a5a44;
+    letter-spacing: 1px;
+}
+
+.contenedorIndex__Link {
+    color: #8a5a44;
+    border: 1px solid #8a5a44;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+}
+
+.contenedorIndex__Link:hover,
+.contenedorIndex__Link:focus {
+    background-color: #e6b8a2;
+}
+
+.fa-chalkboard-teacher {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.fa-user-graduate {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.fa-award {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.fa-facebook-square {
+    color: blue;
+    font-size: 30px;
+}
+
+.fa-instagram {
+    color: purple;
+    font-size: 30px;
+}
+
+.fa-whatsapp {
+    color: green;
+    font-size: 30px;
+}
+
+.containerClasses__Img {
+    height: 300px;
+    width: 300px;
+
+    /*probar ajustar con % y no con px */
+}

@@ -1,0 +1,67 @@
+@use "variables"as v;
+
+.menu {
+    width: 100%;
+}
+
+.menu__List {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu__Bullet {
+    list-style: none;
+}
+
+.menu__Link {
+    @include v.menu;
+
+}
+
+.menu__Lista-anidada {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu__Link:hover {
+    color: azure;
+
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+        color: chartreuse;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+        color: cadetblue;
+    }
+
+    .menu__List {
+        flex-direction: column;
+    }
+
+    .menu__Lista-anidada {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .menu__List {
+        flex-direction: column;
+    }
+
+    .menu__Lista-anidada {
+        flex-direction: column;
+        align-items: center;
+    }
+}
